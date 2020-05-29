@@ -10,7 +10,7 @@ deploy:
   provider: releases
   api_key:
     secure: Wxg6IGKTSahyCxGh/xSLch/COoeQy+8c8HmtwxHs0JHs6ZysX+VZrfZHrlqOBYZ9t3CcSjPqs85F35E3rYXd/dztfz1Z6YWu67jhJT3YVrHEEdS0NdT/6OD+njgbW39HWvgGkorpeLGMcJalHHfKQ+lS8WkHeVdn0M5S5RkMd9ppjpVKY72FFoImMlcwlS2NfHfx3Y+8K0Jc3VOg0qSKumXBfGy3OI56GWge+WlkxAMu95+YuFjVowXWxFBd501E79Htd4LPO2Vv7RIXicRdUFf22kEeaXab1rf5zNXBEa+sOHI6b1WixxqmW+U6nM0PY2nQnNNltEmV4+7X04lT2D0DP5mPlUrSqxq3zNjAueG7f8FYgzOHIRmntMALAZMubxYUh1fX4uBKGkW3qs07E0pVaD3CvqfuqGnwvrgAaZW+cl8tILyqbtEX3KHafURkvSkfxX2F5Lj936qF+rTSLm9FtG+HGOay5b6i71wob3aMkMqXb+S815HaLSQkwKvUGPuRdFMVWq/k09GuLbMXeCCr8TpVUPCC4ockcvDhZy86p9n2ZLq2hzTKNtzYCu6XilVi13nE9VmOoz1GxDt55WGF0J/lT+uqRNTXo2GxiENH0qMedbv5HcQ0i+LikLkKLei0vnJhRVhe7SAukqMa4ci/Gcs9tM0eckhFXlHppnw=
-  file: build/vss-simulator
+  file: ./build/vss-simulator
   on:
     repo: erufes/VSS-Simulator
   draft: 'true'
